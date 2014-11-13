@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <meta charset="UTF-8" />
+    <link href="css/style.css" media="screen" rel="stylesheet"/>
+    <link href="css/print.css" media="print" rel="stylesheet"/>
     <title>My Resume</title>
   </head>
 
 <body>
+  <div id="container">
   <header>
     <h1>Emily Eidelman</h1>
 
@@ -13,17 +18,23 @@
       <p>(847)224-8612</p>
       <p>e.eidelman@me.com</p>
       <p>485 Greenwood ave. Glencoe, IL 60022</p>
-      <p><link><a href="https://www.linkedin.com/profile/view?id=234017223&trk=hb_tab_pro_top">LinkedIn</a></link>
+      <p><a href="https://www.linkedin.com/profile/view?id=234017223&trk=hb_tab_pro_top">LinkedIn</a></p>
 
       </address>
+
+
+      <img src="img/2d00cee.jpg" alt="Emily Eidelman" />
+
+
 
   </header>
 
   <nav>
     <ul>
-      <li><a href="resume.html#SpecialSkills">Special Skills</a></li>
-      <li><a href="resume.html#Experience">Experience</a></li>
-      <li><a href="resume.html#Education">Education</a></li>
+      <li><a href="resume.html#specialskills">Special Skills</a></li>
+      <li><a href="resume.html#experience">Experience</a></li>
+      <li><a href="resume.html#education">Education</a></li>
+      <li><a href="javascript:window.print ();">Print</a></li>
     </ul>
   </nav>
 
@@ -31,7 +42,7 @@
   <main>
 
     <section>
-      <h2 id="SpecialSkills">Special Skills</h2>
+      <h2 id="specialskills">Special Skills</h2>
 
       <article>
         <ul>
@@ -45,7 +56,7 @@
     </section>
 
     <section>
-      <h2 id="Experience">Experience</h2>
+      <h2 id="experience">Experience</h2>
 
 
       <article>
@@ -67,13 +78,13 @@
 
 
    <section>
-     <h2 id="Education">Education</h2>
+     <h2 id="education">Education</h2>
 
 
      <article>
 
        <h3>University of Miami - Anticipated Graduation 2016</h3>
-        <p>I am currently a junior at the University of Miami, majoring in journalism, with a minor in visual journalism and music business. In my freshman and sophomore year, I made dean’s list (based upon grade point average).</p>
+        <p>I am currently a junior at the <a href="http://www.miami.edu/">University of Miami</a>, majoring in print journalism, with minors in visual journalism and music business. In my freshman and sophomore year, I made dean’s list (based upon grade point average).</p>
 
         <h3>New Trier Township High School</h3>
           <p>I graduated from New Trier in the spring of 2012. I finished each semester on the honor roll.</p>
@@ -82,3 +93,7 @@
     </section>
 
   </main>
+</div>
+</body>
+
+</html>

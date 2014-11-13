@@ -1,0 +1,48 @@
+*{
+  color: black;
+  background: white;
+  font-size: 12pt;
+  font-family: 'Times New Roman', serif;
+
+}
+
+@page {
+  margin:0.5in;
+}
+
+a[href^="http://"]:after { content: " (" attr(href) ") "; }
+
+address a {
+  display: none;
+}
+
+h1{
+  font-size: 36pt;
+  text-align: left;
+}
+
+h2{
+  font-size: 20pt;
+}
+
+img{
+  display: none;
+
+}
+address{
+
+  text-align: left;
+  font-size: 12pt;
+
+}
+
+
+a{
+  text-decoration: none;
+
+}
+
+
+nav li{
+display: none;
+}
