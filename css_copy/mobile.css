@@ -1,4 +1,4 @@
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
 
 nav ul{
   padding-left: 0;
@@ -41,14 +41,23 @@ body{
 /* Home */
 
 
+#home{
+  background-image: url(../img_copy/lolla.png);
+  background-repeat: no-repeat;
+}
+
 
 #home h1{
   font-size: 100px;
   font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  float: center;
 }
 
 #home h2{
   font-size: 50px;
+  color: white;
+  float: center;
 }
 
 
@@ -97,7 +106,7 @@ h1 {
 
 
 #resume main{
-  border-top: 1px solid #222;
+
   border-bottom: 1px solid #222;
 }
 
@@ -105,7 +114,7 @@ h1 {
   width: 200px;
   height: 200px;
   border: 1px solid #222;
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
 
@@ -121,6 +130,12 @@ p{
 }
 
 /* Design */
+
+#designs section{
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+  padding: 5px;
+}
 
 #cover{
   width: 30%;
@@ -177,17 +192,18 @@ p{
 
 /* Writing */
 
-
 #tennis{
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
   position: relative;
   float: center;
 }
 
 #rowing{
   margin: 5px;
-  padding: 5px;
+  padding: 10px;
   position: relative;
   float: center;
+}
+
 }
