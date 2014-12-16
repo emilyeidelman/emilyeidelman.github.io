@@ -51,10 +51,6 @@ body{
   background-repeat: no-repeat;
 }
 
-#socialmedia{
-  float: right;
-  position: relative;
-}
 
 #home h1{
   font-size: 100px;
@@ -202,15 +198,15 @@ p{
 /* Writing */
 
 #tennis{
-  margin: 10px;
-  padding: 5px;
+  margin: 5px;
+  padding: 10px;
   position: relative;
   float: center;
 }
 
 #rowing{
-  margin: 10px;
-  padding: 5px;
+  margin: 5px;
+  padding: 10px;
   position: relative;
   float: center;
 }
