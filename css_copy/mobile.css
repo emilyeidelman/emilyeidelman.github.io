@@ -44,6 +44,11 @@ nav li > a:visited {
 
 }
 
+#home background-image{
+  width: 320px;
+  height: 568px;
+}
+
 
 #home h1{
   font-size: 100px;
