@@ -196,14 +196,14 @@ p{
 
 /* Writing */
 
-#tennis{
+#tennis p{
   margin: 10px;
   padding: 5px;
   position: relative;
   float: center;
 }
 
-#rowing{
+#rowing p{
   margin: 10px;
   padding: 5px;
   position: relative;
