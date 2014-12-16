@@ -37,17 +37,6 @@ nav li > a:visited {
 
 /* Home */
 
-#home{
-  background-image: url(../img_copy/smile.png);
-  background-repeat: no-repeat;
-
-
-}
-
-#home background-image{
-  max-width: 100%;
-  height: 568px;
-}
 
 
 #home h1{
