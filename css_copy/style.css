@@ -51,6 +51,11 @@ body{
   background-repeat: no-repeat;
 }
 
+#socialmedia{
+  float: right;
+  position: relative;
+}
+
 #home h1{
   font-size: 100px;
   font-family: 'Roboto Condensed', sans-serif;
