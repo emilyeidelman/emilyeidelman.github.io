@@ -35,16 +35,11 @@ nav li > a:visited {
 }
 
 body{
-  background: url(../img_copy/cream_dust_@2X.png)
-  ;}
+  background: none;
+  }
 
 /* Home */
 
-
-#home{
-  background-image: url(../img_copy/lolla.png);
-  background-repeat: no-repeat;
-}
 
 
 #home h1{
@@ -67,6 +62,7 @@ body {
   margin: 5px;
   padding: 2px;
   color: #222;
+  background: none;
 }
 
 
