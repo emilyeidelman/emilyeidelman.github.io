@@ -38,16 +38,12 @@ nav li > a:visited {
 /* Home */
 
 #home{
-  background-image: url(../img_copy/lolla.png);
+  background-image: url(../img_copy/smile.png);
   background-repeat: no-repeat;
 
 
 }
 
-background-image{
-  width: 100%;
-  height: 100%;
-}
 
 #home h1{
   font-size: 100px;
